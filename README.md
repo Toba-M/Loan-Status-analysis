@@ -1,6 +1,5 @@
 # Loan-Status-analysis
 Exploratory data analysis and cleaning of a loan status dataset using Python.
-# Loan Status Exploratory Data Analysis (EDA)
 
 This repository contains a Jupyter notebook that performs exploratory data analysis (EDA) and cleaning on a loan dataset.  
 The goal is to inspect data quality, identify missing values, generate summary statistics, and visualize key insights that can be used later for predictive modeling.
