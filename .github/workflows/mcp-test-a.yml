@@ -1,0 +1,10 @@
+name: MCP Test Workflow A
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  echo-test-a:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "MCP capability test A passed"
+      - run: echo "Branch: test/mcp-capability-a-20260917-162608"
