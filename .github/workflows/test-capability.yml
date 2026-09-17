@@ -1,0 +1,12 @@
+name: Test Capability Check
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [test/github-capability-*]
+jobs:
+  echo-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub capability end-to-end test passed"
+      - run: echo "Timestamp: 20260917-145031"
